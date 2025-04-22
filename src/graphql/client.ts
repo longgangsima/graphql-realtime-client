@@ -8,7 +8,7 @@ const httpLink = new HttpLink({
   uri: import.meta.env.VITE_GRAPHQL_ENDPOINT,
 });
 
-console.log('import.meta.env.VITE_GRAPHQL_ENDPOINT: ', import.meta.env.VITE_GRAPHQL_ENDPOINT);
+// console.log('import.meta.env.VITE_GRAPHQL_ENDPOINT: ', import.meta.env.VITE_GRAPHQL_ENDPOINT);
 
 // WebSocket link for subscriptions
 const wsLink = new GraphQLWsLink(
